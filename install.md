@@ -17,7 +17,7 @@ and also made a copy in `/ssd/` and `/dev/shm`
 
 For coffea benchmarks:
 ```bash
-conda create -n coffea-bench -c conda-forge jupyterlab python==3.8.* ca-policy-lcg coffea==0.7.9 psutil
+conda create -n coffea-bench -c conda-forge jupyterlab python==3.10.* ca-policy-lcg coffea==2023.12.0 psutil
 conda activate coffea-bench
 python coffea-adl-benchmarks.py
 ```
